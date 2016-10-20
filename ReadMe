@@ -1,0 +1,12 @@
+Steps to run the program:
+========================
+
+1) Extract the ZIP file.
+2) Import the project to Eclipse IDE.
+3) Program can be started by running the file "DownloadManager.java"
+	* Currently supports "HTTP", "SFTP" and "FTP". For others it will say "Invalid URL message."
+	* The input list of URLs can be added in the same file. (urls.add())
+	* The preferred location of download can be sent through the program
+	  using "service.downloadFiles(<URLs list>, <Preferred Location>)",
+	  else the program will ask for the location in the console.
+4) Status of the downloads will be printed in the console every 3 Secs once.
